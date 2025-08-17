@@ -1,0 +1,8 @@
+Scrape the list of highest-grossing films from Wikipedia:
+https://en.wikipedia.org/wiki/List_of_highest-grossing_films
+
+Respond with a JSON array of 4 items:
+1) Count of $2bn movies before 2000
+2) Earliest film over $1.5bn
+3) Correlation between Rank and Peak (as a number)
+4) Scatterplot of Rank vs Peak with a dotted red regression line, base64 data URI under 100kB
